@@ -23,7 +23,11 @@
 </details>
 
 ## Description
-<Description> 
+Four small projects written in Ruby given in [The Odin Project](https://theodinproject.com).
+* [Caesar Cipher](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/caesar-cipher)
+* [Sub Strings](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/sub-strings)
+* [Stock Picker](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/stock-picker)
+* [Bubble Sort](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/bubble-sort)
 
 ## Demo
 [Repl](https://replit.com/@MaheshkumarP/BasicRubyProjects#README.md)
