@@ -30,7 +30,7 @@ Four small projects written in Ruby given in [The Odin Project](https://theodinp
 * [Bubble Sort](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/bubble-sort)
 
 ## Demo
-[Repl](https://replit.com/@MaheshkumarP/BasicRubyProjects#README.md)
+[Replit](https://replit.com/@MaheshkumarP/BasicRubyProjects#README.md)
 </br>
   
 ## Built With
