@@ -1,6 +1,6 @@
 
-# [Basic Ruby Projects](#)
-<about>
+# [Basic Ruby Projects](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming#basic-ruby-projects)
+
 <details open="open">
   <summary>Table Of Contents</summary>
   <ol>
