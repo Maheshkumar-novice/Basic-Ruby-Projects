@@ -1,0 +1,22 @@
+Steps:
+-> Understand the Problem (Explain simply, diagram)
+-> Plan (Pseudo Code, inputs, outputs, steps, ui, comments)
+-> Divide and Conquer (Split the problem into sub problems)
+
+Understand the Problem:
+Resources:
+	https://en.wikipedia.org/wiki/Bubble_sort
+
+	Bubble Sort is a sorting algorithm that is not suitable for big lists. We repeatedly loop through the list until it sorted, for each loop we swap the elements that are in wrong order. We can reduce the iteration count by optimizing in some ways. If the list already sorted bubble sort takes a single iteration with no swaps so we can use a flag variable for this condition. On each iteration, the highest value will move on to the end of the list. It's like we are moving highest value in the list to the end on each iteration so we can reduce the inner comparison iterations with reducing the iteration by one because the last value already has its place. Sometimes multiple elements will get their place consider, 1 5 3 6 7 8 here 6 7 8 are in their place so we don't need to get them in the comparison after the first iteration so we can use a variable to set where the last swap handled that way, we know that after the last swap index there is elements already in their position. We are going to implement these three methods one by one. Starting with the very basic bubble sort with no optimization, then with reducing iteration comparison count, then finally reducing with comparison by flagging last index where the swap handled.
+
+Plan:
+Input - List of Elements to be sorted
+Output - List of Elements sorted
+
+Pseudo Code:
+	- Get List of Elements
+	- Loop from the second index till the final element of the list
+		- Inner loop - Loop from the outer loop start till the end of the list
+			- Compare the current index element with previous index element
+				- If they are in wrong order swap
+	- Print the Sorted List

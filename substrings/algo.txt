@@ -1,0 +1,22 @@
+Steps:
+-> Understand the Problem (Explain simply, diagram)
+-> Plan (Pseudo Code, inputs, outputs, steps, ui, comments)
+-> Divide and Conquer (Split the problem into sub problems)
+
+Random Ideas:
+-> Color Text
+-> From Clipboard
+
+Understand the Problem:
+	In the given string find the number occurrences of the substrings given in the dictonary.
+
+Plan:
+Input -  String 
+Output - Hash with Counts of Available substrings from the dictionary 
+
+Pseudo Code:
+	- Get the String From the User
+	- Take each words from dictionary
+	- Find the number of occurrences of word in String
+	- Store the count of word in the Hash if word in String
+	- Print the Hash
