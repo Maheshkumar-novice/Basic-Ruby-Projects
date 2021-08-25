@@ -36,6 +36,7 @@
 * How to use various methods available in Ruby
 * How to use documentation of Ruby to explore new things and learn about existing features
 * How to install and Use gems in Ruby
+* How to plan for a project
   
 ## Acknowledgements
 * [The Odin Project](https://theodinproject.com)
