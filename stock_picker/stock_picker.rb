@@ -1,6 +1,14 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
+require 'rubygems'
+begin
+  gem 'colorize'
+rescue Gem::LoadError
+#   Gem.install('colorize')
+ `gem install colorize --user`
+  gem 'colorize'
+end
 require 'colorize'
 
 # Sample Input: [17,3,6,9,15,8,6,1,10], Sample Output: 12, 1, 4

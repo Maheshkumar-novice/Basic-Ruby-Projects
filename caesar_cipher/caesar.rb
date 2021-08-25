@@ -1,6 +1,17 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
+require 'rubygems'
+begin
+  gem 'colorize'
+  gem 'clipboard'
+rescue Gem::LoadError
+#   Gem.install('colorize')
+ `gem install colorize --user`
+ `gem install clipboard --user`
+  gem 'colorize'
+  gem 'clipboard'
+end
 require 'colorize'
 require 'clipboard'
 

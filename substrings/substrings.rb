@@ -1,6 +1,17 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
+require 'rubygems'
+begin
+  gem 'colorize'
+  gem 'awesome_print'
+rescue Gem::LoadError
+#   Gem.install('colorize')
+ `gem install colorize --user`
+ `gem install awesome_print --user`
+  gem 'colorize'
+  gem 'awesome_print'
+end
 require 'awesome_print'
 require 'clipboard'
 
