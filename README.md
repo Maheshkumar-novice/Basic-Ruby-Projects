@@ -1,5 +1,5 @@
 
-# [Title](#)
+# [Basic Ruby Projects](#)
 <about>
 <details open="open">
   <summary>Table Of Contents</summary>
@@ -26,16 +26,19 @@
 <Description> 
 
 ## Demo
-<!-- ![Example](./assets/example.gif) -->
+[Repl](https://replit.com/@MaheshkumarP/BasicRubyProjects#README.md)
 </br>
   
 ## Built With
-* <Thing>
+* Ruby
 
 ## What I Learned
-* <What>
+* How to use various methods available in Ruby
+* How to use documentation of Ruby to explore new things and learn about existing features
+* How to install and Use gems in Ruby
   
 ## Acknowledgements
-* <Ack>
+* [The Odin Project](https://theodinproject.com)
+* [Repl](https://replit.com)
 
-[Move To Top](#title)
+[Move To Top](#basic-ruby-projects)
