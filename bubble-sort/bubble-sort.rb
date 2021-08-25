@@ -1,6 +1,14 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
+# require 'rubygems'
+# begin
+#   gem 'colorize'
+# rescue Gem::LoadError
+# #   Gem.install('colorize')
+#  `gem install colorize --user`
+#   gem 'colorize'
+# end
 require 'colorize'
 
 def swap(index1, index2, values)
