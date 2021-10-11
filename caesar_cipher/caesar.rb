@@ -15,6 +15,7 @@ end
 require 'colorize'
 require 'clipboard'
 
+# Note: Character's distance from min_range that converted to mod 26 then added to min_range to get the value from min_range + 25.
 # Shift Each Character
 def shift_character(character, min_range)
   (character - min_range) % 26 + min_range
